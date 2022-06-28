@@ -26,6 +26,10 @@ output application/json
 			</ee:message>
 		</ee:transform>
 		<logger level="INFO" doc:name="Logger" doc:id="b14d084a-7fe2-4468-a24f-126b166120cd" message="#[payload]"/>
+
 		<logger level="INFO" doc:name="Logger" doc:id="476074e7-bf84-4b28-bee8-200373bb97c9" message="Hi"/>
+
+		<logger level="INFO" doc:name="Logger" doc:id="b14d084a-7fe2-4468-a24f-126b166120cd" message="changes made by someone "/>
+ 
 	</flow>
 </mule>
